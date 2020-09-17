@@ -51,6 +51,8 @@ body
     text-align: center;
     vertical-align: middle;
     height: fit-content;
+    align-items: center;
+    align-content: center;
 }
 .mainLogo
 {
