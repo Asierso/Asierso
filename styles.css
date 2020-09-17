@@ -22,11 +22,12 @@ body
 {
     background-color: rgb(22, 22, 22);
     border-radius: 20px;
-    padding:25px;
+    padding:50px;
     width: auto;
     align-self:center;
     text-align: center;
     height: 100px;
+    
 }
 .subContent
 {
@@ -93,9 +94,8 @@ body
 {
     padding: 25px;
     border-radius: 20px;
-    width: fit-content;
+    width: auto;
     background-color: rgb(233, 233, 233);
-    margin: auto;
     vertical-align:bottom;
     margin-top:calc( 10px + 2%);
     margin-right: 100px;
