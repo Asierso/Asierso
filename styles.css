@@ -63,20 +63,43 @@ body
 }
 .button
 {
-    border-color: white;
+    background-color: rgb(82, 139, 255);
+    color:white;
     border-radius: 20px;
     padding: 5px;
     border-style: none;
     font-family: 'Segoe UI';
+    border-radius: 20px dashed;
+    outline: none;
 }
-.buttonDarker
+.button:hover
 {
-    border-color: rgb(211, 211, 211);
+    background-color: rgb(109, 156, 252);
+    color:white;
+    border-radius: 20px;
+    padding: 5px;
+    border-style: none;
+    font-family: 'Segoe UI';
+    outline: none;
+}
+.starterButton
+{
     border-radius: 20px;
     padding: 5px;
     border-style: none;
     font-family: 'Segoe UI';
     box-shadow: none;
+    outline: none;
+}
+.starterButton:hover
+{
+    border-radius: 20px;
+    padding: 5px;
+    border-style: none;
+    font-family: 'Segoe UI';
+    box-shadow: none;
+    background-color: white;
+    outline: none;
 }
 .imageContent
 {
@@ -100,4 +123,16 @@ body
     margin-top:calc( 10px + 2%);
     margin-right: 100px;
     float: left;
+}
+.btnIcons
+{
+    background:url('Assets/btnIcons.png');
+    background-size:contain;
+    image-resolution: 0px;
+}
+.btnIcons:hover
+{
+    background:url('Assets/btnIcons2.png');
+    background-size:contain;
+    image-resolution: 0px;
 }
