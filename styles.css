@@ -138,3 +138,11 @@ body
     background-size:contain;
     image-resolution: 0px;
 }
+.clock1
+{
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    border-radius: 100px;
+    padding: 25px;
+    margin-left: 20px;
+}
