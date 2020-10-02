@@ -22,10 +22,29 @@ function showRemaining() {
     var hours = Math.floor((distance % _day) / _hour);
     var minutes = Math.floor((distance % _hour) / _minute);
     var seconds = Math.floor((distance % _minute) / _second);
-
-    document.getElementById('digit4').innerHTML = days;
-    document.getElementById('digit3').innerHTML = hours;
-    document.getElementById('digit2').innerHTML = minutes;
-    document.getElementById('digit1').innerHTML = seconds;
+    if (days < 10) {
+        document.getElementById('digit4').innerHTML = "0" + days.toString();
+    }
+    else{
+        document.getElementById('digit4').innerHTML = days.toString();
+    }
+    if (hours < 10) {
+        document.getElementById('digit3').innerHTML = "0" + hours.toString();
+    }
+    else{
+        document.getElementById('digit3').innerHTML = hours.toString();
+    }
+    if (minutes < 10) {
+        document.getElementById('digit2').innerHTML = "0" + minutes.toString();
+    }
+    else{
+        document.getElementById('digit2').innerHTML = minutes.toString();
+    }
+    if (seconds <10) {
+        document.getElementById('digit1').innerHTML = "0" + seconds.toString();
+    }
+    else{
+        document.getElementById('digit1').innerHTML = seconds.toString();
+    }
 }
 timer = setInterval(showRemaining, 1000);
