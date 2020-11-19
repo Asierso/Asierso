@@ -7,17 +7,17 @@ body
 }
 .font
 {
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .leftFont
 {
     margin-top: 5px;
     float: left;
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .mainContentFont
 {
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
 .mainContent
@@ -70,7 +70,7 @@ body
     border-radius: 20px;
     padding: 5px;
     border-style: none;
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 20px dashed;
     outline: none;
 }
@@ -81,7 +81,7 @@ body
     border-radius: 20px;
     padding: 5px;
     border-style: none;
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     outline: none;
 }
 .starterButton
@@ -89,7 +89,7 @@ body
     border-radius: 20px;
     padding: 5px;
     border-style: none;
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-shadow: none;
     outline: none;
 }
@@ -98,7 +98,7 @@ body
     border-radius: 20px;
     padding: 5px;
     border-style: none;
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-shadow: none;
     background-color: white;
     outline: none;
