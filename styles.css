@@ -1,9 +1,6 @@
 body
 {
-    background-image: url('Assets/bg.png');
-    background-size: cover;
-    background-repeat: space;
-    background-color:rgb(145, 236, 177);
+    background-image: linear-gradient(175deg, #ff8ba6 0, #ff8e96 5%, #ff9288 10%, #ff977a 15%, #ff9c6c 20%, #ffa260 25%, #ffa855 30%, #ffaf4c 35%, #ffb544 40%, #f4ba3e 45%, #e6c03b 50%, #d8c53b 55%, #c8ca3f 60%, #b8ce45 65%, #a7d24d 70%, #95d558 75%, #81d864 80%, #6bdb71 85%, #4edd80 90%, #1ddf8f 95%, #00e09f 100%);
 }
 .font
 {
@@ -65,7 +62,7 @@ body
 }
 .button
 {
-    background-color: rgb(82, 139, 255);
+    background-color: rgb(71, 131, 252);
     color:white;
     border-radius: 20px;
     padding: 5px;
@@ -76,8 +73,8 @@ body
 }
 .button:hover
 {
-    background-color: rgb(109, 156, 252);
-    color:white;
+    background-color: rgb(149, 185, 255);
+    color:rgb(63, 63, 63);
     border-radius: 20px;
     padding: 5px;
     border-style: none;
@@ -92,6 +89,7 @@ body
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-shadow: none;
     outline: none;
+    background-color: rgb(233, 233, 233);
 }
 .starterButton:hover
 {
@@ -103,6 +101,7 @@ body
     background-color: white;
     outline: none;
 }
+
 .imageContent
 {
     padding: 25px;
