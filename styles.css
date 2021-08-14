@@ -21,11 +21,12 @@ body
 {
     background-color: rgb(22, 22, 22);
     border-radius: 20px;
-    padding:50px;
+    padding:9vh;
     width: auto;
     align-self:center;
     text-align: center;
     height: 100px;
+    margin:auto;
     
 }
 .subContent
@@ -39,6 +40,16 @@ body
     text-align: center;
     vertical-align: middle;
     height: fit-content;
+    animation-name: motion;
+    animation-duration: 2s;
+}
+@keyframes motion {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
 }
 .subContentDarker
 {
@@ -91,6 +102,65 @@ body
     outline: none;
     background-color: rgb(233, 233, 233);
 }
+.starterButtonHolo
+{
+    border-radius: 20px;
+    border:5px;
+    padding: 5px;
+    border-color: rgb(149, 185, 255);
+    border-spacing: 10px;
+    border-style:solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    color:white;
+
+    
+
+}
+.starterButtonHolo:hover
+{
+    border-radius: 20px;
+    border:5px;
+    padding: 5px;
+    border-spacing: 10px;
+    border-style:solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    color:white;
+
+    animation-duration: 10s;
+    animation-name: colorswitch;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes colorswitch {
+    from{
+        border-color:rgb(149, 185, 255);
+    }
+    15%{
+        border-color:rgb(127, 245, 88);
+    }
+    30%{
+        border-color:rgb(245, 227, 88);
+    }
+    45%{
+        border-color: rgb(245, 88, 114);
+    }
+    60%{
+        border-color:rgb(245, 227, 88);
+    }
+    75%{
+        border-color:rgb(127, 245, 88);
+    }
+    to{
+        border-color:rgb(149, 185, 255);
+    }
+}
+
 .starterButton:hover
 {
     border-radius: 20px;
