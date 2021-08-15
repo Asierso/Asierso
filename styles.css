@@ -5,6 +5,7 @@ body
 .font
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 .leftFont
 {
@@ -214,4 +215,12 @@ body
     border-radius: 100px;
     padding: 15px;
     margin-left: 20px;
+}
+.serverStatusIcon
+{
+    height: 25px;
+}
+.gameStatusIcon
+{
+    height: 25px;
 }
