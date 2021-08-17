@@ -224,3 +224,14 @@ body
 {
     height: 25px;
 }
+.textInput
+{
+    border-style: none;
+    border-radius: 30px;
+    padding:5px;
+    font-family: 'Segoe UI';
+    background-color: rgb(214, 214, 214);
+    width: 50%;
+    margin-left:10px;
+    outline: none;
+}
