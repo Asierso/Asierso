@@ -1,0 +1,237 @@
+body
+{
+    background-image: linear-gradient(175deg, #ff8ba6 0, #ff8e96 5%, #ff9288 10%, #ff977a 15%, #ff9c6c 20%, #ffa260 25%, #ffa855 30%, #ffaf4c 35%, #ffb544 40%, #f4ba3e 45%, #e6c03b 50%, #d8c53b 55%, #c8ca3f 60%, #b8ce45 65%, #a7d24d 70%, #95d558 75%, #81d864 80%, #6bdb71 85%, #4edd80 90%, #1ddf8f 95%, #00e09f 100%);
+}
+.font
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.leftFont
+{
+    margin-top: 5px;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mainContentFont
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.mainContent
+{
+    background-color: rgb(22, 22, 22);
+    border-radius: 20px;
+    padding:9vh;
+    width: auto;
+    align-self:center;
+    text-align: center;
+    height: 100px;
+    margin:auto;
+    
+}
+.subContent
+{
+    margin-top:calc( 10px + 2%);
+    background-color: white;
+    border-radius: 20px;
+    padding:25px;
+    width: auto;
+    align-self:center;
+    text-align: center;
+    vertical-align: middle;
+    height: fit-content;
+    animation-name: motion;
+    animation-duration: 2s;
+}
+@keyframes motion {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+.subContentDarker
+{
+    margin-top:calc( 10px + 2%);
+    background-color: rgb(233, 233, 233);
+    border-radius: 20px;
+    padding:25px;
+    width: auto;
+    align-self:center;
+    text-align: center;
+    vertical-align: middle;
+    height: fit-content;
+    align-items: center;
+    align-content: center;
+}
+.mainLogo
+{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.button
+{
+    background-color: rgb(71, 131, 252);
+    color:white;
+    border-radius: 20px;
+    padding: 5px;
+    border-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px dashed;
+    outline: none;
+}
+.button:hover
+{
+    background-color: rgb(149, 185, 255);
+    color:rgb(63, 63, 63);
+    border-radius: 20px;
+    padding: 5px;
+    border-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+.starterButton
+{
+    border-radius: 20px;
+    padding: 5px;
+    border-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: none;
+    outline: none;
+    background-color: rgb(233, 233, 233);
+}
+.starterButtonHolo
+{
+    border-radius: 20px;
+    border:5px;
+    padding: 5px;
+    border-color: rgb(149, 185, 255);
+    border-spacing: 10px;
+    border-style:solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    color:white;
+
+    
+
+}
+.starterButtonHolo:hover
+{
+    border-radius: 20px;
+    border:5px;
+    padding: 5px;
+    border-spacing: 10px;
+    border-style:solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    color:white;
+
+    animation-duration: 10s;
+    animation-name: colorswitch;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes colorswitch {
+    from{
+        border-color:rgb(149, 185, 255);
+    }
+    15%{
+        border-color:rgb(127, 245, 88);
+    }
+    30%{
+        border-color:rgb(245, 227, 88);
+    }
+    45%{
+        border-color: rgb(245, 88, 114);
+    }
+    60%{
+        border-color:rgb(245, 227, 88);
+    }
+    75%{
+        border-color:rgb(127, 245, 88);
+    }
+    to{
+        border-color:rgb(149, 185, 255);
+    }
+}
+
+.starterButton:hover
+{
+    border-radius: 20px;
+    padding: 5px;
+    border-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: none;
+    background-color: white;
+    outline: none;
+}
+
+.imageContent
+{
+    padding: 25px;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: white;
+    margin: auto;
+    vertical-align:bottom;
+    margin-top:calc( 10px + 2%);
+    margin-right: 100px;
+    float: left;
+}
+.imageContentDarker
+{
+    padding: 25px;
+    border-radius: 20px;
+    width: auto;
+    background-color: rgb(233, 233, 233);
+    vertical-align:bottom;
+    margin-top:calc( 10px + 2%);
+    margin-right: 100px;
+    float: left;
+}
+.btnIcons
+{
+    background:url('Assets/btnIcons.png');
+    background-size:contain;
+    image-resolution: 0px;
+}
+.btnIcons:hover
+{
+    background:url('Assets/btnIcons2.png');
+    background-size:contain;
+    image-resolution: 0px;
+}
+.clock1
+{
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    border-radius: 100px;
+    padding: 15px;
+    margin-left: 20px;
+}
+.serverStatusIcon
+{
+    height: 25px;
+}
+.gameStatusIcon
+{
+    height: 25px;
+}
+.textInput
+{
+    border-style: none;
+    border-radius: 30px;
+    padding:5px;
+    font-family: 'Segoe UI';
+    background-color: rgb(214, 214, 214);
+    width: 50%;
+    margin-left:10px;
+    outline: none;
+}
