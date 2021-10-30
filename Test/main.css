@@ -18,8 +18,8 @@ a{
 }
 .titleContainer{
     background-color: rgb(43, 43, 43);
-    padding: 50px;
-    display: flex;
+    padding: 30px;
+    display: flexbox;
     flex-direction: column;
     border-radius: 1rem;
     box-shadow: 0 10px 25px rgba(92,99,105,.2);
@@ -64,7 +64,6 @@ button:hover{
 }
 .mainContentButton
 {
-    margin-left: .55vw;
     margin-top: 10px;
 }
 
