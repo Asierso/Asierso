@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Gradient Generator</title>
+    <link href="../../Assets/logo.png" rel ="icon" type="image/png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="main.css" rel="stylesheet"/>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div style="width: 100%;height: 100%;position: absolute;top: 0;left: 0;">
+        <div  style="width: 100%;height: 20vh;">
+
+        </div>
+    <div class="container showHideElement">
+        <p class="title">Gradient generator</p>
+        <input type="text" id="numberTxt" class="textBox" placeholder="Numero de gradientes"/>
+        <br>
+        <input type="text" id="copyableTxt" class="textBox" placeholder="C&oacute;digo del gradiente" readonly="true"/>
+        <div class="wrapper">
+            <div id="boxContainer"></div>
+        </div>
+        <br>
+        <button onclick="Run()">Generar</button>
+    </div>
+    </div>
+</body>
+</html>
