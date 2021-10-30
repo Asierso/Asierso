@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link href="../Assets/logo.png" rel ="icon" type="image/png"/>
+        <link href="../styles.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+        <title>Asierso Studio</title>
+    </head>
+    <body>
+        <div class="mainContent">
+            <img class="mainLogo" src="../Assets/logo2.png">
+                <h1 class="mainContentFont">Asierso Studio</h1>  
+        </div>
+        <div class="subcontent">
+            <img src="../Assets/btnIcons.png" style="float: left;width:70px;height:15px;"/>
+            <h3 class="font">Sandlife</h3>
+            <p class="font">Despu&eacute;s de tanto tiempo sin subir un nuevo juego</br>Aqu&iacute; llega sandlife, un juego sandbox para android donde pondr&aacute;s<br>a rendir tu creatividad para construir con el sistema de bloques del juego<br>Relajarse es una cosa importante y una de nuestras prioridades<br>a la hora de desarrollar sandlife. Por eso es el juego idoneo para jugar<br>despu&eacute;s de un d&iacute;a duro o en el ba&ntilde;o</p>
+            <br>
+            <a style="float:right;font-family: 'Segoe UI'; font-weight: bold; font-size: 80%;">12/11/2020</a>
+        </div>
+        <div class="subcontent">
+            <img src="../Assets/btnIcons.png" style="float: left;width:70px;height:15px;"/>
+            <h3 class="font">Descargar</h3>
+            <p class="font">Sandlife est&aacute; disponible en Android y Windows para ser descargado</p>
+            <button class="button" onclick="window.open('https://play.google.com/store/apps/details?id=com.AsiersoStudio.Sandlife&hl=es_419&gl=US')">Android</button>
+            <button class="button" onclick="window.open('https://asierso-studio.itch.io/sandlife')">Windows</button>
+            <button class="button" onclick="window.open('../index.html','_self')">Atras</button>
+            <br>
+            <a style="float:right;font-family: 'Segoe UI'; font-weight: bold; font-size: 80%;">25/01/2021</a>
+        </div>
+        <div class="subcontent">
+            <img src="../Assets/btnIcons.png" style="float: left;width:70px;height:15px;"/>
+            <h3 class="font">Gu&iacute;a del juego</h3>
+            <p class="font">Sandlife es un juego que en cada actualizaci&oacute;n trae m&aacute;s y m&aacute;s contenido. Por eso puede ayudar el tener una gu&iacute;a oficial</p>
+            <h3 class="font">General</h3>
+            <p class="font">La arena y la grava son los &uacute;nicos bloques que les afecta la gravedad<br>Las luces, el particler, los comandos y los cables son bloques los
+            <br>cuales pueden ser cargados con energ&iacute;a para que funcionen</p>
+            <p class="font">Los cables transportan energ&iacute;a entre varios puntos. Para poder usarla, conecta el cable a un enchufe (plug) y este a el actuador que se quiera usar</p>
+            <h3 class="font">Comandos</h3>
+            <p class="font">Los comandos son el bloque m&aacute;s dif&iacute;cil de usar de todos. Requieren saber una sintaxis b&aacute;sica<br><h4 class="font">/comando parametros {etiqueta:valor,}</h4></p>
+            <p class="font">Los comandos disponibles a fecha de hoy son:<br><h4 class="font">/place [x] [y] [id] (pone bloques)<br>/particle [x] [y] (pone partículas)<br>/crash (crashea el juego)<br>/save (guarda el mundo)<br>/load [world] (carga el mundo)<br>/destroy (borra todo)<br>/kill particle (borra particulas)<br>/bgcolor [color/custom] (cambia el color del fondo<br>/var [create/set/add/insert/remove] [varName] [value] (crea/establece/inserta/elimina/suma una variable)<br>/testfor [varName] [comparator] [condition] (Emite energía si una variable es..)</h4></p>
+            <br><p class="font">Las etiquetas que existen son:<br><h4 class="font">{id:[value]}<br>{info:[value]}<br>{status:[value]}<br>{rigibody:[value]}<br>{gravity:[value]}<br>{color:[value]}<br>{red:[value]}<br>{green:[value]}<br>{blue:[value]}<br>{speed:[value]}<br>{lifeTime:[value]}<br>{duration:[value]}<br>{size:[value]}<br>{rotation:[value]}<br>{limit:[value]}<br>{loop:[value]}<br></h4></p>
+            <br><p class="font">Si yo quiero crear un bloque de tierra que caiga, la sintaxis es: /place 100 100 0 {rigibody:1,}  (Todo lo que genera un comando, no se guardar&aacute; en los archivos del juego)</p>
+            <a style="float:right;font-family: 'Segoe UI'; font-weight: bold; font-size: 80%;">25/01/2021</a>
+        </div>
+        <div class="subcontent">
+            <img src="../Assets/btnIcons.png" style="float: left;width:70px;height:15px;"/>
+            <h3 class="font">Soporte de mods</h3>
+            <p class="font">Ahora, Sandlife cuenta con un repositorio oficial para descargar mods para el juego,<br>en el repositorio se indican los pasos para instalar mods en Sandlife</p>
+            <button class="button" onclick="window.open('https://github.com/Asierso/SandlifeMods')">Abrir repositorio</button>
+            <br>
+            <a style="float:right;font-family: 'Segoe UI'; font-weight: bold; font-size: 80%;">18/03/2021</a>
+        </div>
+    </body>
+</html>
