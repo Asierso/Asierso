@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link href="../Assets/logo.png" rel ="icon" type="image/png"/>
+        <link href="../main.css" rel="stylesheet" type="text/css"/>
+        <link href="gradient.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+        <title>Asierso Studio</title>
+    </head>
+    <body>
+        <script src="gradient.js"></script>
+        <!--Main header of webpage-->
+        <div class="titleContainer">
+            
+            <div style="display: flex;">
+                <img class="mainLogo" src="../Assets/logo.png"/>
+                <div class="titleSubcontainer">
+                    <h1 class="mainTitle">Asierso Studio</h1>  
+            </div>
+            </div>
+        </div>
+
+        <div class="subcontent">
+            <h3 class="title">Gradient generator</h3>
+        <input type="text" id="numberTxt" class="textBox" placeholder="Numero de gradientes"/>
+        <br><br>
+        <input type="text" id="copyableTxt" class="textBox" placeholder="C&oacute;digo del gradiente" readonly="true"/>
+        <div class="wrapper">
+            <div id="boxContainer"></div>
+        </div>
+        <br>
+        <button onclick="Run()">Generar</button>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@keyframes ShowHide {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+#boxContainer{
+    overflow-x: var(--overflow-var-status);
+    overflow-y: hidden;
+    height: 140px;
+    width: 20rem;
+    white-space:nowrap;
+    flex-direction: row;
+    justify-content: center;
+    margin:auto;
+    background-color: white;
+}
+.showHideElement
+{
+    animation-name:ShowHide;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.box { 
+    width:100px;
+    height:100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(92,99,105,.2);
+    padding: 4px;
+    display: inline-block;
+    margin-top: 10px;
+}
+p {
+    font-family: var(--font);
+    text-align: center;
+}
+:root{
+    --font: 'Poppins',sans-serif;
+    --overflow-var-status: hidden;
+}
