@@ -35,7 +35,7 @@ a{
 }
 .mainTitle{
     margin: auto;
-    font-size:  67.83px;
+    font-size:  calc(30px + 2vw);
     color: #fff;
     margin-right: 5.208333333333333vw;
 }
