@@ -31,8 +31,7 @@ a{
 .mainLogo{
     height: 120px;
     width: 120px;
-    position: absolute;
-    left:  2.6041666666666665vw;
+    position: relative;
 }
 .mainTitle{
     margin: auto;
