@@ -30,6 +30,7 @@ a{
 .mainLogo{
     height: 120px;
     width: 120px;
+    float: left;
 }
 .mainTitle{
     margin: auto;
