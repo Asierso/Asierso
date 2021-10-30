@@ -1,18 +1,30 @@
 <html>
     <head>
         <link href="../Assets/logo.png" rel ="icon" type="image/png"/>
-        <link href="../styles.css" rel="stylesheet" type="text/css"/>
+        <link href="../main.css" rel="stylesheet" type="text/css"/>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <title>Asierso Studio</title>
     </head>
     <body>
         <script src="../script.js"></script>
-        <!--Title-->
-        <div class="mainContent">
-            <img class="mainLogo" src="../Assets/logo2.png">
-                <h1 class="mainContentFont">Asierso Studio</h1>  
+        <!--Main header of webpage-->
+        <div class="titleContainer">
+            
+            <div style="display: flex;">
+                <img class="mainLogo" src="../Assets/logo.png"/>
+                <div class="titleSubcontainer">
+                    <h1 class="mainTitle">Asierso Studio</h1>  
+            </div>
+            </div>
+            <div class="buttonsSubcontainer">
+                
+                <button class="mainContentButton" onclick="window.open('http://webmail.asierso.com')">Correo</button>
+                <button class="mainContentButton" onclick="window.open('https://www.youtube.com/channel/UCKD602J-bPZP4NckTxyRe8Q')">Youtube</button>
+                <button class="mainContentButton" onclick="window.open('https://github.com/Asierso')">Github</button>
+            </div>
         </div>
+
         <!--Subcontent-->
         <div class="subcontent" id="serverService">
             <div style="float: left;width:70px;height:15px;" class="btnIcons" onclick="divClose('serverService')"></div>
@@ -36,7 +48,7 @@
             <h3 class="font">Nuevas funciones</h3>
             <p class="font">Como se habr&aacute; podido observar, Asierso Studio ha tenido algunas mejoras extra.<br>A partir de ahora las ventanas del men&uacute; se podr&aacute;n cerrar<br>Se han incluido nuevas animaciones en los botones<br></p>
             <br>
-            <a style="float:right;font-family: 'Segoe UI'; font-weight: bold; font-size: 80%;">01/10/2020</a>
+            <a style="float:right; font-weight: bold; font-size: 80%;">01/10/2020</a>
         </div>
     </body>
 </html>

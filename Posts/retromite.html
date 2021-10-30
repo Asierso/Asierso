@@ -1,24 +1,36 @@
 <html>
     <head>
         <link href="../Assets/logo.png" rel ="icon" type="image/png"/>
-        <link href="../styles.css" rel="stylesheet" type="text/css"/>
+        <link href="../main.css" rel="stylesheet" type="text/css"/>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <title>Asierso Studio</title>
     </head>
     <body>
         <script src="../script.js"></script>
-        <div class="mainContent">
-            <img class="mainLogo" src="../Assets/logo2.png">
-                <h1 class="mainContentFont">Asierso Studio</h1>  
+        <!--Main header of webpage-->
+        <div class="titleContainer">
+            
+            <div style="display: flex;">
+                <img class="mainLogo" src="../Assets/logo.png"/>
+                <div class="titleSubcontainer">
+                    <h1 class="mainTitle">Asierso Studio</h1>  
+            </div>
+            </div>
+            <div class="buttonsSubcontainer">
+                
+                <button class="mainContentButton" onclick="window.open('http://webmail.asierso.com')">Correo</button>
+                <button class="mainContentButton" onclick="window.open('https://www.youtube.com/channel/UCKD602J-bPZP4NckTxyRe8Q')">Youtube</button>
+                <button class="mainContentButton" onclick="window.open('https://github.com/Asierso')">Github</button>
+            </div>
         </div>
         <div class="subcontent" id="retromite">
             <div style="float: left;width:70px;height:15px;" class="btnIcons" onclick="divClose('retromite')"></div>
             <h3 class="font">Retromite</h3>
-            <p class="font">Librer&iacute;as gr&aacute;ficas de .net</br>para desarrolladores de terminal<br>Con retromite podr&aacute;s dibujar cubos,texturas,crear animaciones con frames<br>dibujar matrizes y muchas cosas m&aacute;s en la terminal CMD<br>Est&aacute;n programadas en c# para windows. (No se han testeado en linux ni macOS)<br> Para m&aacute;s informaci&oacute;n, entra en el repositorio</p>
+            <p class="font">Librer&iacute;as gr&aacute;ficas de .net para desarrollo en terminal<br>Con retromite podr&aacute;s dibujar cubos,texturas,crear animaciones con frames<br>dibujar matrizes y muchas cosas m&aacute;s<br>Librer&iacute;a compatible con (C#) para windows. (No se han testeado en linux ni macOS)<br> Para m&aacute;s informaci&oacute;n, entra en el repositorio</p>
             <button class="button" onclick="window.open('../index.html','_self')">Atras</button>
             <br>
-            <a style="float:right;font-family: 'Segoe UI'; font-weight: bold; font-size: 80%;">12/05/2020</a>
+            <a style="float:right; font-weight: bold; font-size: 80%;">12/05/2020</a>
         </div>
         
     </body>
