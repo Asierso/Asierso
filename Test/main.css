@@ -20,6 +20,7 @@ a{
     background-color: rgb(43, 43, 43);
     padding: 50px;
     display: flex;
+    flex-direction: column;
     border-radius: 1rem;
     box-shadow: 0 10px 25px rgba(92,99,105,.2);
 }
@@ -57,6 +58,7 @@ button:hover{
 }
 .buttonsSubcontainer
 {
+    margin: auto;
     margin-top: 10px;
 }
 .mainContentButton
