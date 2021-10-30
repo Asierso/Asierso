@@ -95,18 +95,6 @@ button:hover{
 }
 
 /* Old web style */
-.btnIcons
-{
-    background:url('Assets/btnIcons.png');
-    background-size:contain;
-    image-resolution: 0px;
-}
-.btnIcons:hover
-{
-    background:url('Assets/btnIcons2.png');
-    background-size:contain;
-    image-resolution: 0px;
-}
 .subContent
 {
     margin-top:calc( 10px + 2%);
