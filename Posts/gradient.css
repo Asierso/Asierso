@@ -13,7 +13,7 @@
     overflow-x: var(--overflow-var-status);
     overflow-y: hidden;
     height: 140px;
-    width: 20rem;
+    width: 50vw;
     white-space:nowrap;
     flex-direction: row;
     justify-content: center;
