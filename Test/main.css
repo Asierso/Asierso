@@ -58,12 +58,13 @@ button:hover{
 }
 .buttonsSubcontainer
 {
+    display:flex;
     margin: auto;
     margin-top: 10px;
 }
 .mainContentButton
 {
-    margin-left: .75vw;
+    margin-left: .55vw;
     margin-top: 10px;
 }
 
