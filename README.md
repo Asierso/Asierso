@@ -1,6 +1,3 @@
-
-<h1><img src="https://avatars.githubusercontent.com/u/33327643?v=4" width="50">&nbsp;Asierso</h1>
-
 Hola 👋, soy un desarrollador de aplicaciones y videojuegos de origen Español. <br>
 <b>¿Mi objetivo 🌐?</b> Crear nuevos <b>proyectos</b> 📈 y aprender nuevas <b>tecnologías</b> 🛠.
 
