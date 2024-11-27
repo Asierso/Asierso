@@ -1,8 +1,8 @@
 
 <h1><img src="https://avatars.githubusercontent.com/u/33327643?v=4" width="50">&nbsp;Asierso</h1>
 
-Hola 👋, soy un desarrollador de aplicaciones y videojuegos
-
+Hola 👋, soy un desarrollador de aplicaciones y videojuegos de origen Español. <br>
+<b>¿Mi objetivo 🌐?</b> Crear nuevos <b>proyectos</b> 📈 y aprender nuevas <b>tecnologías</b> 🛠.
 
 Mi stack de <b>lenguajes</b> 🚀:<br>
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg' width="25">
@@ -14,6 +14,7 @@ Mi stack de <b>lenguajes</b> 🚀:<br>
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg' width="25">
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg' width="25">
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg' width="25">
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg' width="25">
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg' width="25">
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg' width="25">
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg' width="25">
