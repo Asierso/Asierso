@@ -14,10 +14,17 @@ Mi stack de <b>lenguajes</b> 🚀:<br>
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg' width="25">
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg' width="25">
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg' width="25">
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg' width="25">
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg' width="25">
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg' width="25">
-
 <br>
 
-Mi stack de <b>tecnologías</b> 🚀:<br>
+Mi stack de <b>tecnologías</b> 🛠:<br>
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg' width="25">
-<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swing/swing-original.svg' width="25">
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg' width="25">
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg' width="25">
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' width="25">
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xamarin/xamarin-original.svg' width="25">
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tomcat/tomcat-original.svg' width="25">
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg' width="25">
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg' width="25">
